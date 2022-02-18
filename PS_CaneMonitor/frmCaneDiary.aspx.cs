@@ -20,7 +20,7 @@ namespace PS_CaneMonitor
         {
             if (!IsPostBack)
             {
-                //บังคับให้ Login Web กรณีใช้งานจากภายนอก
+                //บังคับให้ Login Web กรณีใช้งานจากภายนอก//
                 FncCheckLoginWeb();
 
                 if (txtDateS.Text == "" || txtDateE.Text == "")
